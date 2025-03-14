@@ -1,0 +1,7 @@
+README.md
+setup.py
+pokedex.egg-info/PKG-INFO
+pokedex.egg-info/SOURCES.txt
+pokedex.egg-info/dependency_links.txt
+pokedex.egg-info/requires.txt
+pokedex.egg-info/top_level.txt

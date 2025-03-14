@@ -1,0 +1,12 @@
+requests==2.32.3
+langchain==0.3.2
+unstructured
+langchain_community
+torch
+torchvision
+transformers
+sentence-transformers
+pillow
+numpy
+qdrant-client
+selenium

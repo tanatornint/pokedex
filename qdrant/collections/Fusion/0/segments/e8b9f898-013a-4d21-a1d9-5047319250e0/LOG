@@ -1,0 +1,777 @@
+2025/03/14-12:04:13.553029 4621 RocksDB version: 8.10.0
+2025/03/14-12:04:13.553084 4621 Compile date 2023-12-15 13:01:14
+2025/03/14-12:04:13.553090 4621 DB SUMMARY
+2025/03/14-12:04:13.553096 4621 Host name (Env):  5d65e9dc4275
+2025/03/14-12:04:13.553100 4621 DB Session ID:  T6QAXPXJXMOS3MLD2CKR
+2025/03/14-12:04:13.553197 4621 CURRENT file:  CURRENT
+2025/03/14-12:04:13.553202 4621 IDENTITY file:  IDENTITY
+2025/03/14-12:04:13.553226 4621 MANIFEST file:  MANIFEST-000562 size: 1298 Bytes
+2025/03/14-12:04:13.553238 4621 SST files in ./storage/collections/Fusion/0/segments/e8b9f898-013a-4d21-a1d9-5047319250e0 dir, Total Num: 9, files: 000009.sst 000010.sst 000012.sst 000014.sst 000015.sst 000017.sst 000019.sst 000020.sst 000022.sst 
+2025/03/14-12:04:13.553243 4621 Write Ahead Log file in ./storage/collections/Fusion/0/segments/e8b9f898-013a-4d21-a1d9-5047319250e0: 000561.log size: 0 ; 
+2025/03/14-12:04:13.553248 4621                         Options.error_if_exists: 0
+2025/03/14-12:04:13.553251 4621                       Options.create_if_missing: 1
+2025/03/14-12:04:13.553254 4621                         Options.paranoid_checks: 1
+2025/03/14-12:04:13.553256 4621             Options.flush_verify_memtable_count: 1
+2025/03/14-12:04:13.553261 4621          Options.compaction_verify_record_count: 1
+2025/03/14-12:04:13.553268 4621                               Options.track_and_verify_wals_in_manifest: 0
+2025/03/14-12:04:13.553271 4621        Options.verify_sst_unique_id_in_manifest: 1
+2025/03/14-12:04:13.553277 4621                                     Options.env: 0x7b38b6833000
+2025/03/14-12:04:13.553280 4621                                      Options.fs: PosixFileSystem
+2025/03/14-12:04:13.553283 4621                                Options.info_log: 0x7b38a170ed00
+2025/03/14-12:04:13.553287 4621                Options.max_file_opening_threads: 16
+2025/03/14-12:04:13.553291 4621                              Options.statistics: (nil)
+2025/03/14-12:04:13.553294 4621                               Options.use_fsync: 0
+2025/03/14-12:04:13.553296 4621                       Options.max_log_file_size: 1048576
+2025/03/14-12:04:13.553299 4621                  Options.max_manifest_file_size: 1073741824
+2025/03/14-12:04:13.553302 4621                   Options.log_file_time_to_roll: 0
+2025/03/14-12:04:13.553304 4621                       Options.keep_log_file_num: 1
+2025/03/14-12:04:13.553307 4621                    Options.recycle_log_file_num: 0
+2025/03/14-12:04:13.553309 4621                         Options.allow_fallocate: 1
+2025/03/14-12:04:13.553313 4621                        Options.allow_mmap_reads: 0
+2025/03/14-12:04:13.553316 4621                       Options.allow_mmap_writes: 0
+2025/03/14-12:04:13.553342 4621                        Options.use_direct_reads: 0
+2025/03/14-12:04:13.553345 4621                        Options.use_direct_io_for_flush_and_compaction: 0
+2025/03/14-12:04:13.553347 4621          Options.create_missing_column_families: 1
+2025/03/14-12:04:13.553350 4621                              Options.db_log_dir: 
+2025/03/14-12:04:13.553352 4621                                 Options.wal_dir: 
+2025/03/14-12:04:13.553355 4621                Options.table_cache_numshardbits: 6
+2025/03/14-12:04:13.553358 4621                         Options.WAL_ttl_seconds: 0
+2025/03/14-12:04:13.553360 4621                       Options.WAL_size_limit_MB: 0
+2025/03/14-12:04:13.553363 4621                        Options.max_write_batch_group_size_bytes: 1048576
+2025/03/14-12:04:13.553366 4621             Options.manifest_preallocation_size: 4194304
+2025/03/14-12:04:13.553368 4621                     Options.is_fd_close_on_exec: 1
+2025/03/14-12:04:13.553372 4621                   Options.advise_random_on_open: 1
+2025/03/14-12:04:13.553375 4621                    Options.db_write_buffer_size: 0
+2025/03/14-12:04:13.553378 4621                    Options.write_buffer_manager: 0x7b38a3008f80
+2025/03/14-12:04:13.553381 4621         Options.access_hint_on_compaction_start: 1
+2025/03/14-12:04:13.553384 4621           Options.random_access_max_buffer_size: 1048576
+2025/03/14-12:04:13.553388 4621                      Options.use_adaptive_mutex: 0
+2025/03/14-12:04:13.553391 4621                            Options.rate_limiter: (nil)
+2025/03/14-12:04:13.553395 4621     Options.sst_file_manager.rate_bytes_per_sec: 0
+2025/03/14-12:04:13.553400 4621                       Options.wal_recovery_mode: 0
+2025/03/14-12:04:13.553406 4621                  Options.enable_thread_tracking: 0
+2025/03/14-12:04:13.553411 4621                  Options.enable_pipelined_write: 0
+2025/03/14-12:04:13.553415 4621                  Options.unordered_write: 0
+2025/03/14-12:04:13.553420 4621         Options.allow_concurrent_memtable_write: 1
+2025/03/14-12:04:13.553423 4621      Options.enable_write_thread_adaptive_yield: 1
+2025/03/14-12:04:13.553426 4621             Options.write_thread_max_yield_usec: 100
+2025/03/14-12:04:13.553429 4621            Options.write_thread_slow_yield_usec: 3
+2025/03/14-12:04:13.553433 4621                               Options.row_cache: None
+2025/03/14-12:04:13.553439 4621                              Options.wal_filter: None
+2025/03/14-12:04:13.553443 4621             Options.avoid_flush_during_recovery: 0
+2025/03/14-12:04:13.553446 4621             Options.allow_ingest_behind: 0
+2025/03/14-12:04:13.553449 4621             Options.two_write_queues: 0
+2025/03/14-12:04:13.553452 4621             Options.manual_wal_flush: 0
+2025/03/14-12:04:13.553454 4621             Options.wal_compression: 0
+2025/03/14-12:04:13.553457 4621             Options.atomic_flush: 0
+2025/03/14-12:04:13.553459 4621             Options.avoid_unnecessary_blocking_io: 0
+2025/03/14-12:04:13.553464 4621                 Options.persist_stats_to_disk: 0
+2025/03/14-12:04:13.553468 4621                 Options.write_dbid_to_manifest: 0
+2025/03/14-12:04:13.553470 4621                 Options.log_readahead_size: 0
+2025/03/14-12:04:13.553475 4621                 Options.file_checksum_gen_factory: Unknown
+2025/03/14-12:04:13.553478 4621                 Options.best_efforts_recovery: 0
+2025/03/14-12:04:13.553481 4621                Options.max_bgerror_resume_count: 2147483647
+2025/03/14-12:04:13.553484 4621            Options.bgerror_resume_retry_interval: 1000000
+2025/03/14-12:04:13.553486 4621             Options.allow_data_in_errors: 0
+2025/03/14-12:04:13.553491 4621             Options.db_host_id: __hostname__
+2025/03/14-12:04:13.553493 4621             Options.enforce_single_del_contracts: true
+2025/03/14-12:04:13.553496 4621             Options.max_background_jobs: 2
+2025/03/14-12:04:13.553499 4621             Options.max_background_compactions: -1
+2025/03/14-12:04:13.553502 4621             Options.max_subcompactions: 1
+2025/03/14-12:04:13.553505 4621             Options.avoid_flush_during_shutdown: 0
+2025/03/14-12:04:13.553507 4621           Options.writable_file_max_buffer_size: 1048576
+2025/03/14-12:04:13.553510 4621             Options.delayed_write_rate : 16777216
+2025/03/14-12:04:13.553513 4621             Options.max_total_wal_size: 0
+2025/03/14-12:04:13.553519 4621             Options.delete_obsolete_files_period_micros: 180000000
+2025/03/14-12:04:13.553524 4621                   Options.stats_dump_period_sec: 600
+2025/03/14-12:04:13.553529 4621                 Options.stats_persist_period_sec: 600
+2025/03/14-12:04:13.553532 4621                 Options.stats_history_buffer_size: 1048576
+2025/03/14-12:04:13.553535 4621                          Options.max_open_files: 256
+2025/03/14-12:04:13.553554 4621                          Options.bytes_per_sync: 0
+2025/03/14-12:04:13.553560 4621                      Options.wal_bytes_per_sync: 0
+2025/03/14-12:04:13.553563 4621                   Options.strict_bytes_per_sync: 0
+2025/03/14-12:04:13.553630 4621       Options.compaction_readahead_size: 2097152
+2025/03/14-12:04:13.553634 4621                  Options.max_background_flushes: -1
+2025/03/14-12:04:13.553637 4621 Options.daily_offpeak_time_utc: 
+2025/03/14-12:04:13.553640 4621 Compression algorithms supported:
+2025/03/14-12:04:13.553645 4621 	kZSTD supported: 0
+2025/03/14-12:04:13.553650 4621 	kXpressCompression supported: 0
+2025/03/14-12:04:13.553654 4621 	kBZip2Compression supported: 0
+2025/03/14-12:04:13.553657 4621 	kZSTDNotFinalCompression supported: 0
+2025/03/14-12:04:13.553671 4621 	kLZ4Compression supported: 1
+2025/03/14-12:04:13.553681 4621 	kZlibCompression supported: 0
+2025/03/14-12:04:13.553697 4621 	kLZ4HCCompression supported: 1
+2025/03/14-12:04:13.553700 4621 	kSnappyCompression supported: 1
+2025/03/14-12:04:13.553705 4621 Fast CRC32 supported: Not supported on x86
+2025/03/14-12:04:13.553711 4621 DMutex implementation: pthread_mutex_t
+2025/03/14-12:04:13.554340 4621               Options.comparator: leveldb.BytewiseComparator
+2025/03/14-12:04:13.554346 4621           Options.merge_operator: None
+2025/03/14-12:04:13.554349 4621        Options.compaction_filter: None
+2025/03/14-12:04:13.554352 4621        Options.compaction_filter_factory: None
+2025/03/14-12:04:13.554355 4621  Options.sst_partitioner_factory: None
+2025/03/14-12:04:13.554357 4621         Options.memtable_factory: SkipListFactory
+2025/03/14-12:04:13.554360 4621            Options.table_factory: BlockBasedTable
+2025/03/14-12:04:13.554418 4621            table_factory options:   flush_block_policy_factory: FlushBlockBySizePolicyFactory (0x7b38a3065060)
+  cache_index_and_filter_blocks: 0
+  cache_index_and_filter_blocks_with_high_priority: 1
+  pin_l0_filter_and_index_blocks_in_cache: 0
+  pin_top_level_index_and_filter: 1
+  index_type: 0
+  data_block_index_type: 0
+  index_shortening: 1
+  data_block_hash_table_util_ratio: 0.750000
+  checksum: 4
+  no_block_cache: 0
+  block_cache: 0x7b38a3008e50
+  block_cache_name: LRUCache
+  block_cache_options:
+    capacity : 33554432
+    num_shard_bits : 6
+    strict_capacity_limit : 0
+    memory_allocator : None
+    high_pri_pool_ratio: 0.500
+    low_pri_pool_ratio: 0.000
+  persistent_cache: (nil)
+  block_size: 4096
+  block_size_deviation: 10
+  block_restart_interval: 16
+  index_block_restart_interval: 1
+  metadata_block_size: 4096
+  partition_filters: 0
+  use_delta_encoding: 1
+  filter_policy: nullptr
+  whole_key_filtering: 1
+  verify_compression: 0
+  read_amp_bytes_per_bit: 0
+  format_version: 5
+  enable_index_compression: 1
+  block_align: 0
+  max_auto_readahead_size: 262144
+  prepopulate_block_cache: 0
+  initial_auto_readahead_size: 8192
+  num_file_reads_for_auto_readahead: 2
+2025/03/14-12:04:13.554429 4621        Options.write_buffer_size: 10485760
+2025/03/14-12:04:13.554433 4621  Options.max_write_buffer_number: 2
+2025/03/14-12:04:13.554437 4621          Options.compression: LZ4
+2025/03/14-12:04:13.554440 4621                  Options.bottommost_compression: Disabled
+2025/03/14-12:04:13.554443 4621       Options.prefix_extractor: nullptr
+2025/03/14-12:04:13.554445 4621   Options.memtable_insert_with_hint_prefix_extractor: nullptr
+2025/03/14-12:04:13.554449 4621             Options.num_levels: 7
+2025/03/14-12:04:13.554452 4621        Options.min_write_buffer_number_to_merge: 1
+2025/03/14-12:04:13.554455 4621     Options.max_write_buffer_number_to_maintain: 0
+2025/03/14-12:04:13.554459 4621     Options.max_write_buffer_size_to_maintain: 0
+2025/03/14-12:04:13.554462 4621            Options.bottommost_compression_opts.window_bits: -14
+2025/03/14-12:04:13.554465 4621                  Options.bottommost_compression_opts.level: 32767
+2025/03/14-12:04:13.554468 4621               Options.bottommost_compression_opts.strategy: 0
+2025/03/14-12:04:13.554472 4621         Options.bottommost_compression_opts.max_dict_bytes: 0
+2025/03/14-12:04:13.554475 4621         Options.bottommost_compression_opts.zstd_max_train_bytes: 0
+2025/03/14-12:04:13.554477 4621         Options.bottommost_compression_opts.parallel_threads: 1
+2025/03/14-12:04:13.554480 4621                  Options.bottommost_compression_opts.enabled: false
+2025/03/14-12:04:13.554482 4621         Options.bottommost_compression_opts.max_dict_buffer_bytes: 0
+2025/03/14-12:04:13.554485 4621         Options.bottommost_compression_opts.use_zstd_dict_trainer: true
+2025/03/14-12:04:13.554487 4621            Options.compression_opts.window_bits: -14
+2025/03/14-12:04:13.554490 4621                  Options.compression_opts.level: 32767
+2025/03/14-12:04:13.554493 4621               Options.compression_opts.strategy: 0
+2025/03/14-12:04:13.554495 4621         Options.compression_opts.max_dict_bytes: 0
+2025/03/14-12:04:13.554501 4621         Options.compression_opts.zstd_max_train_bytes: 0
+2025/03/14-12:04:13.554505 4621         Options.compression_opts.use_zstd_dict_trainer: true
+2025/03/14-12:04:13.554508 4621         Options.compression_opts.parallel_threads: 1
+2025/03/14-12:04:13.554510 4621                  Options.compression_opts.enabled: false
+2025/03/14-12:04:13.554513 4621         Options.compression_opts.max_dict_buffer_bytes: 0
+2025/03/14-12:04:13.554515 4621      Options.level0_file_num_compaction_trigger: 4
+2025/03/14-12:04:13.554518 4621          Options.level0_slowdown_writes_trigger: 20
+2025/03/14-12:04:13.554521 4621              Options.level0_stop_writes_trigger: 36
+2025/03/14-12:04:13.554524 4621                   Options.target_file_size_base: 67108864
+2025/03/14-12:04:13.554526 4621             Options.target_file_size_multiplier: 1
+2025/03/14-12:04:13.554529 4621                Options.max_bytes_for_level_base: 268435456
+2025/03/14-12:04:13.554532 4621 Options.level_compaction_dynamic_level_bytes: 1
+2025/03/14-12:04:13.554537 4621          Options.max_bytes_for_level_multiplier: 10.000000
+2025/03/14-12:04:13.554542 4621 Options.max_bytes_for_level_multiplier_addtl[0]: 1
+2025/03/14-12:04:13.554545 4621 Options.max_bytes_for_level_multiplier_addtl[1]: 1
+2025/03/14-12:04:13.554558 4621 Options.max_bytes_for_level_multiplier_addtl[2]: 1
+2025/03/14-12:04:13.554561 4621 Options.max_bytes_for_level_multiplier_addtl[3]: 1
+2025/03/14-12:04:13.554564 4621 Options.max_bytes_for_level_multiplier_addtl[4]: 1
+2025/03/14-12:04:13.554568 4621 Options.max_bytes_for_level_multiplier_addtl[5]: 1
+2025/03/14-12:04:13.554586 4621 Options.max_bytes_for_level_multiplier_addtl[6]: 1
+2025/03/14-12:04:13.554591 4621       Options.max_sequential_skip_in_iterations: 8
+2025/03/14-12:04:13.554596 4621                    Options.max_compaction_bytes: 1677721600
+2025/03/14-12:04:13.554600 4621   Options.ignore_max_compaction_bytes_for_input: true
+2025/03/14-12:04:13.554603 4621                        Options.arena_block_size: 1048576
+2025/03/14-12:04:13.554606 4621   Options.soft_pending_compaction_bytes_limit: 68719476736
+2025/03/14-12:04:13.554609 4621   Options.hard_pending_compaction_bytes_limit: 274877906944
+2025/03/14-12:04:13.554611 4621                Options.disable_auto_compactions: 0
+2025/03/14-12:04:13.554615 4621                        Options.compaction_style: kCompactionStyleLevel
+2025/03/14-12:04:13.554618 4621                          Options.compaction_pri: kMinOverlappingRatio
+2025/03/14-12:04:13.554626 4621 Options.compaction_options_universal.size_ratio: 1
+2025/03/14-12:04:13.554629 4621 Options.compaction_options_universal.min_merge_width: 2
+2025/03/14-12:04:13.554631 4621 Options.compaction_options_universal.max_merge_width: 4294967295
+2025/03/14-12:04:13.554634 4621 Options.compaction_options_universal.max_size_amplification_percent: 200
+2025/03/14-12:04:13.554636 4621 Options.compaction_options_universal.compression_size_percent: -1
+2025/03/14-12:04:13.554639 4621 Options.compaction_options_universal.stop_style: kCompactionStopStyleTotalSize
+2025/03/14-12:04:13.554642 4621 Options.compaction_options_fifo.max_table_files_size: 1073741824
+2025/03/14-12:04:13.554646 4621 Options.compaction_options_fifo.allow_compaction: 0
+2025/03/14-12:04:13.554656 4621                   Options.table_properties_collectors: 
+2025/03/14-12:04:13.554659 4621                   Options.inplace_update_support: 0
+2025/03/14-12:04:13.554661 4621                 Options.inplace_update_num_locks: 10000
+2025/03/14-12:04:13.554664 4621               Options.memtable_prefix_bloom_size_ratio: 0.000000
+2025/03/14-12:04:13.554690 4621               Options.memtable_whole_key_filtering: 0
+2025/03/14-12:04:13.554694 4621   Options.memtable_huge_page_size: 0
+2025/03/14-12:04:13.554698 4621                           Options.bloom_locality: 0
+2025/03/14-12:04:13.554700 4621                    Options.max_successive_merges: 0
+2025/03/14-12:04:13.554703 4621                Options.optimize_filters_for_hits: 0
+2025/03/14-12:04:13.554706 4621                Options.paranoid_file_checks: 0
+2025/03/14-12:04:13.554709 4621                Options.force_consistency_checks: 1
+2025/03/14-12:04:13.554712 4621                Options.report_bg_io_stats: 0
+2025/03/14-12:04:13.554715 4621                               Options.ttl: 2592000
+2025/03/14-12:04:13.554732 4621          Options.periodic_compaction_seconds: 0
+2025/03/14-12:04:13.554737 4621                        Options.default_temperature: kUnknown
+2025/03/14-12:04:13.554743 4621  Options.preclude_last_level_data_seconds: 0
+2025/03/14-12:04:13.554745 4621    Options.preserve_internal_time_seconds: 0
+2025/03/14-12:04:13.554748 4621                       Options.enable_blob_files: false
+2025/03/14-12:04:13.554752 4621                           Options.min_blob_size: 0
+2025/03/14-12:04:13.554755 4621                          Options.blob_file_size: 268435456
+2025/03/14-12:04:13.554763 4621                   Options.blob_compression_type: NoCompression
+2025/03/14-12:04:13.554767 4621          Options.enable_blob_garbage_collection: false
+2025/03/14-12:04:13.554773 4621      Options.blob_garbage_collection_age_cutoff: 0.250000
+2025/03/14-12:04:13.554776 4621 Options.blob_garbage_collection_force_threshold: 1.000000
+2025/03/14-12:04:13.554779 4621          Options.blob_compaction_readahead_size: 0
+2025/03/14-12:04:13.554782 4621                Options.blob_file_starting_level: 0
+2025/03/14-12:04:13.554791 4621         Options.experimental_mempurge_threshold: 0.000000
+2025/03/14-12:04:13.554794 4621            Options.memtable_max_range_deletions: 0
+2025/03/14-12:04:13.555068 4621               Options.comparator: leveldb.BytewiseComparator
+2025/03/14-12:04:13.555079 4621           Options.merge_operator: None
+2025/03/14-12:04:13.555081 4621        Options.compaction_filter: None
+2025/03/14-12:04:13.555091 4621        Options.compaction_filter_factory: None
+2025/03/14-12:04:13.555101 4621  Options.sst_partitioner_factory: None
+2025/03/14-12:04:13.555104 4621         Options.memtable_factory: SkipListFactory
+2025/03/14-12:04:13.555111 4621            Options.table_factory: BlockBasedTable
+2025/03/14-12:04:13.555161 4621            table_factory options:   flush_block_policy_factory: FlushBlockBySizePolicyFactory (0x7b38a3065060)
+  cache_index_and_filter_blocks: 0
+  cache_index_and_filter_blocks_with_high_priority: 1
+  pin_l0_filter_and_index_blocks_in_cache: 0
+  pin_top_level_index_and_filter: 1
+  index_type: 0
+  data_block_index_type: 0
+  index_shortening: 1
+  data_block_hash_table_util_ratio: 0.750000
+  checksum: 4
+  no_block_cache: 0
+  block_cache: 0x7b38a3008e50
+  block_cache_name: LRUCache
+  block_cache_options:
+    capacity : 33554432
+    num_shard_bits : 6
+    strict_capacity_limit : 0
+    memory_allocator : None
+    high_pri_pool_ratio: 0.500
+    low_pri_pool_ratio: 0.000
+  persistent_cache: (nil)
+  block_size: 4096
+  block_size_deviation: 10
+  block_restart_interval: 16
+  index_block_restart_interval: 1
+  metadata_block_size: 4096
+  partition_filters: 0
+  use_delta_encoding: 1
+  filter_policy: nullptr
+  whole_key_filtering: 1
+  verify_compression: 0
+  read_amp_bytes_per_bit: 0
+  format_version: 5
+  enable_index_compression: 1
+  block_align: 0
+  max_auto_readahead_size: 262144
+  prepopulate_block_cache: 0
+  initial_auto_readahead_size: 8192
+  num_file_reads_for_auto_readahead: 2
+2025/03/14-12:04:13.555173 4621        Options.write_buffer_size: 10485760
+2025/03/14-12:04:13.555176 4621  Options.max_write_buffer_number: 2
+2025/03/14-12:04:13.555178 4621          Options.compression: LZ4
+2025/03/14-12:04:13.555181 4621                  Options.bottommost_compression: Disabled
+2025/03/14-12:04:13.555183 4621       Options.prefix_extractor: nullptr
+2025/03/14-12:04:13.555186 4621   Options.memtable_insert_with_hint_prefix_extractor: nullptr
+2025/03/14-12:04:13.555188 4621             Options.num_levels: 7
+2025/03/14-12:04:13.555191 4621        Options.min_write_buffer_number_to_merge: 1
+2025/03/14-12:04:13.555193 4621     Options.max_write_buffer_number_to_maintain: 0
+2025/03/14-12:04:13.555197 4621     Options.max_write_buffer_size_to_maintain: 0
+2025/03/14-12:04:13.555200 4621            Options.bottommost_compression_opts.window_bits: -14
+2025/03/14-12:04:13.555210 4621                  Options.bottommost_compression_opts.level: 32767
+2025/03/14-12:04:13.555213 4621               Options.bottommost_compression_opts.strategy: 0
+2025/03/14-12:04:13.555219 4621         Options.bottommost_compression_opts.max_dict_bytes: 0
+2025/03/14-12:04:13.555221 4621         Options.bottommost_compression_opts.zstd_max_train_bytes: 0
+2025/03/14-12:04:13.555224 4621         Options.bottommost_compression_opts.parallel_threads: 1
+2025/03/14-12:04:13.555226 4621                  Options.bottommost_compression_opts.enabled: false
+2025/03/14-12:04:13.555228 4621         Options.bottommost_compression_opts.max_dict_buffer_bytes: 0
+2025/03/14-12:04:13.555231 4621         Options.bottommost_compression_opts.use_zstd_dict_trainer: true
+2025/03/14-12:04:13.555249 4621            Options.compression_opts.window_bits: -14
+2025/03/14-12:04:13.555251 4621                  Options.compression_opts.level: 32767
+2025/03/14-12:04:13.555263 4621               Options.compression_opts.strategy: 0
+2025/03/14-12:04:13.555269 4621         Options.compression_opts.max_dict_bytes: 0
+2025/03/14-12:04:13.555276 4621         Options.compression_opts.zstd_max_train_bytes: 0
+2025/03/14-12:04:13.555282 4621         Options.compression_opts.use_zstd_dict_trainer: true
+2025/03/14-12:04:13.555284 4621         Options.compression_opts.parallel_threads: 1
+2025/03/14-12:04:13.555287 4621                  Options.compression_opts.enabled: false
+2025/03/14-12:04:13.555289 4621         Options.compression_opts.max_dict_buffer_bytes: 0
+2025/03/14-12:04:13.555291 4621      Options.level0_file_num_compaction_trigger: 4
+2025/03/14-12:04:13.555296 4621          Options.level0_slowdown_writes_trigger: 20
+2025/03/14-12:04:13.555299 4621              Options.level0_stop_writes_trigger: 36
+2025/03/14-12:04:13.555304 4621                   Options.target_file_size_base: 67108864
+2025/03/14-12:04:13.555307 4621             Options.target_file_size_multiplier: 1
+2025/03/14-12:04:13.555315 4621                Options.max_bytes_for_level_base: 268435456
+2025/03/14-12:04:13.555322 4621 Options.level_compaction_dynamic_level_bytes: 1
+2025/03/14-12:04:13.555326 4621          Options.max_bytes_for_level_multiplier: 10.000000
+2025/03/14-12:04:13.555345 4621 Options.max_bytes_for_level_multiplier_addtl[0]: 1
+2025/03/14-12:04:13.555348 4621 Options.max_bytes_for_level_multiplier_addtl[1]: 1
+2025/03/14-12:04:13.555352 4621 Options.max_bytes_for_level_multiplier_addtl[2]: 1
+2025/03/14-12:04:13.555355 4621 Options.max_bytes_for_level_multiplier_addtl[3]: 1
+2025/03/14-12:04:13.555363 4621 Options.max_bytes_for_level_multiplier_addtl[4]: 1
+2025/03/14-12:04:13.555371 4621 Options.max_bytes_for_level_multiplier_addtl[5]: 1
+2025/03/14-12:04:13.555372 4621 Options.max_bytes_for_level_multiplier_addtl[6]: 1
+2025/03/14-12:04:13.555375 4621       Options.max_sequential_skip_in_iterations: 8
+2025/03/14-12:04:13.555376 4621                    Options.max_compaction_bytes: 1677721600
+2025/03/14-12:04:13.555378 4621   Options.ignore_max_compaction_bytes_for_input: true
+2025/03/14-12:04:13.555379 4621                        Options.arena_block_size: 1048576
+2025/03/14-12:04:13.555381 4621   Options.soft_pending_compaction_bytes_limit: 68719476736
+2025/03/14-12:04:13.555382 4621   Options.hard_pending_compaction_bytes_limit: 274877906944
+2025/03/14-12:04:13.555383 4621                Options.disable_auto_compactions: 0
+2025/03/14-12:04:13.555385 4621                        Options.compaction_style: kCompactionStyleLevel
+2025/03/14-12:04:13.555386 4621                          Options.compaction_pri: kMinOverlappingRatio
+2025/03/14-12:04:13.555388 4621 Options.compaction_options_universal.size_ratio: 1
+2025/03/14-12:04:13.555390 4621 Options.compaction_options_universal.min_merge_width: 2
+2025/03/14-12:04:13.555393 4621 Options.compaction_options_universal.max_merge_width: 4294967295
+2025/03/14-12:04:13.555394 4621 Options.compaction_options_universal.max_size_amplification_percent: 200
+2025/03/14-12:04:13.555395 4621 Options.compaction_options_universal.compression_size_percent: -1
+2025/03/14-12:04:13.555397 4621 Options.compaction_options_universal.stop_style: kCompactionStopStyleTotalSize
+2025/03/14-12:04:13.555398 4621 Options.compaction_options_fifo.max_table_files_size: 1073741824
+2025/03/14-12:04:13.555399 4621 Options.compaction_options_fifo.allow_compaction: 0
+2025/03/14-12:04:13.555402 4621                   Options.table_properties_collectors: 
+2025/03/14-12:04:13.555405 4621                   Options.inplace_update_support: 0
+2025/03/14-12:04:13.555408 4621                 Options.inplace_update_num_locks: 10000
+2025/03/14-12:04:13.555411 4621               Options.memtable_prefix_bloom_size_ratio: 0.000000
+2025/03/14-12:04:13.555413 4621               Options.memtable_whole_key_filtering: 0
+2025/03/14-12:04:13.555421 4621   Options.memtable_huge_page_size: 0
+2025/03/14-12:04:13.555423 4621                           Options.bloom_locality: 0
+2025/03/14-12:04:13.555425 4621                    Options.max_successive_merges: 0
+2025/03/14-12:04:13.555427 4621                Options.optimize_filters_for_hits: 0
+2025/03/14-12:04:13.555429 4621                Options.paranoid_file_checks: 0
+2025/03/14-12:04:13.555429 4621                Options.force_consistency_checks: 1
+2025/03/14-12:04:13.555431 4621                Options.report_bg_io_stats: 0
+2025/03/14-12:04:13.555434 4621                               Options.ttl: 2592000
+2025/03/14-12:04:13.555436 4621          Options.periodic_compaction_seconds: 0
+2025/03/14-12:04:13.555437 4621                        Options.default_temperature: kUnknown
+2025/03/14-12:04:13.555438 4621  Options.preclude_last_level_data_seconds: 0
+2025/03/14-12:04:13.555439 4621    Options.preserve_internal_time_seconds: 0
+2025/03/14-12:04:13.555440 4621                       Options.enable_blob_files: false
+2025/03/14-12:04:13.555441 4621                           Options.min_blob_size: 0
+2025/03/14-12:04:13.555448 4621                          Options.blob_file_size: 268435456
+2025/03/14-12:04:13.555449 4621                   Options.blob_compression_type: NoCompression
+2025/03/14-12:04:13.555454 4621          Options.enable_blob_garbage_collection: false
+2025/03/14-12:04:13.555456 4621      Options.blob_garbage_collection_age_cutoff: 0.250000
+2025/03/14-12:04:13.555458 4621 Options.blob_garbage_collection_force_threshold: 1.000000
+2025/03/14-12:04:13.555459 4621          Options.blob_compaction_readahead_size: 0
+2025/03/14-12:04:13.555461 4621                Options.blob_file_starting_level: 0
+2025/03/14-12:04:13.555462 4621         Options.experimental_mempurge_threshold: 0.000000
+2025/03/14-12:04:13.555464 4621            Options.memtable_max_range_deletions: 0
+2025/03/14-12:04:13.555521 4621               Options.comparator: leveldb.BytewiseComparator
+2025/03/14-12:04:13.555525 4621           Options.merge_operator: None
+2025/03/14-12:04:13.555528 4621        Options.compaction_filter: None
+2025/03/14-12:04:13.555529 4621        Options.compaction_filter_factory: None
+2025/03/14-12:04:13.555531 4621  Options.sst_partitioner_factory: None
+2025/03/14-12:04:13.555532 4621         Options.memtable_factory: SkipListFactory
+2025/03/14-12:04:13.555533 4621            Options.table_factory: BlockBasedTable
+2025/03/14-12:04:13.555544 4621            table_factory options:   flush_block_policy_factory: FlushBlockBySizePolicyFactory (0x7b38a3065060)
+  cache_index_and_filter_blocks: 0
+  cache_index_and_filter_blocks_with_high_priority: 1
+  pin_l0_filter_and_index_blocks_in_cache: 0
+  pin_top_level_index_and_filter: 1
+  index_type: 0
+  data_block_index_type: 0
+  index_shortening: 1
+  data_block_hash_table_util_ratio: 0.750000
+  checksum: 4
+  no_block_cache: 0
+  block_cache: 0x7b38a3008e50
+  block_cache_name: LRUCache
+  block_cache_options:
+    capacity : 33554432
+    num_shard_bits : 6
+    strict_capacity_limit : 0
+    memory_allocator : None
+    high_pri_pool_ratio: 0.500
+    low_pri_pool_ratio: 0.000
+  persistent_cache: (nil)
+  block_size: 4096
+  block_size_deviation: 10
+  block_restart_interval: 16
+  index_block_restart_interval: 1
+  metadata_block_size: 4096
+  partition_filters: 0
+  use_delta_encoding: 1
+  filter_policy: nullptr
+  whole_key_filtering: 1
+  verify_compression: 0
+  read_amp_bytes_per_bit: 0
+  format_version: 5
+  enable_index_compression: 1
+  block_align: 0
+  max_auto_readahead_size: 262144
+  prepopulate_block_cache: 0
+  initial_auto_readahead_size: 8192
+  num_file_reads_for_auto_readahead: 2
+2025/03/14-12:04:13.555549 4621        Options.write_buffer_size: 10485760
+2025/03/14-12:04:13.555550 4621  Options.max_write_buffer_number: 2
+2025/03/14-12:04:13.555554 4621          Options.compression: LZ4
+2025/03/14-12:04:13.555557 4621                  Options.bottommost_compression: Disabled
+2025/03/14-12:04:13.555559 4621       Options.prefix_extractor: nullptr
+2025/03/14-12:04:13.555562 4621   Options.memtable_insert_with_hint_prefix_extractor: nullptr
+2025/03/14-12:04:13.555563 4621             Options.num_levels: 7
+2025/03/14-12:04:13.555566 4621        Options.min_write_buffer_number_to_merge: 1
+2025/03/14-12:04:13.555568 4621     Options.max_write_buffer_number_to_maintain: 0
+2025/03/14-12:04:13.555571 4621     Options.max_write_buffer_size_to_maintain: 0
+2025/03/14-12:04:13.555578 4621            Options.bottommost_compression_opts.window_bits: -14
+2025/03/14-12:04:13.555580 4621                  Options.bottommost_compression_opts.level: 32767
+2025/03/14-12:04:13.555581 4621               Options.bottommost_compression_opts.strategy: 0
+2025/03/14-12:04:13.555582 4621         Options.bottommost_compression_opts.max_dict_bytes: 0
+2025/03/14-12:04:13.555583 4621         Options.bottommost_compression_opts.zstd_max_train_bytes: 0
+2025/03/14-12:04:13.555586 4621         Options.bottommost_compression_opts.parallel_threads: 1
+2025/03/14-12:04:13.555587 4621                  Options.bottommost_compression_opts.enabled: false
+2025/03/14-12:04:13.555588 4621         Options.bottommost_compression_opts.max_dict_buffer_bytes: 0
+2025/03/14-12:04:13.555589 4621         Options.bottommost_compression_opts.use_zstd_dict_trainer: true
+2025/03/14-12:04:13.555590 4621            Options.compression_opts.window_bits: -14
+2025/03/14-12:04:13.555591 4621                  Options.compression_opts.level: 32767
+2025/03/14-12:04:13.555593 4621               Options.compression_opts.strategy: 0
+2025/03/14-12:04:13.555594 4621         Options.compression_opts.max_dict_bytes: 0
+2025/03/14-12:04:13.555595 4621         Options.compression_opts.zstd_max_train_bytes: 0
+2025/03/14-12:04:13.555604 4621         Options.compression_opts.use_zstd_dict_trainer: true
+2025/03/14-12:04:13.555605 4621         Options.compression_opts.parallel_threads: 1
+2025/03/14-12:04:13.555608 4621                  Options.compression_opts.enabled: false
+2025/03/14-12:04:13.555610 4621         Options.compression_opts.max_dict_buffer_bytes: 0
+2025/03/14-12:04:13.555611 4621      Options.level0_file_num_compaction_trigger: 4
+2025/03/14-12:04:13.555612 4621          Options.level0_slowdown_writes_trigger: 20
+2025/03/14-12:04:13.555613 4621              Options.level0_stop_writes_trigger: 36
+2025/03/14-12:04:13.555614 4621                   Options.target_file_size_base: 67108864
+2025/03/14-12:04:13.555615 4621             Options.target_file_size_multiplier: 1
+2025/03/14-12:04:13.555616 4621                Options.max_bytes_for_level_base: 268435456
+2025/03/14-12:04:13.555617 4621 Options.level_compaction_dynamic_level_bytes: 1
+2025/03/14-12:04:13.555621 4621          Options.max_bytes_for_level_multiplier: 10.000000
+2025/03/14-12:04:13.555623 4621 Options.max_bytes_for_level_multiplier_addtl[0]: 1
+2025/03/14-12:04:13.555624 4621 Options.max_bytes_for_level_multiplier_addtl[1]: 1
+2025/03/14-12:04:13.555627 4621 Options.max_bytes_for_level_multiplier_addtl[2]: 1
+2025/03/14-12:04:13.555628 4621 Options.max_bytes_for_level_multiplier_addtl[3]: 1
+2025/03/14-12:04:13.555629 4621 Options.max_bytes_for_level_multiplier_addtl[4]: 1
+2025/03/14-12:04:13.555630 4621 Options.max_bytes_for_level_multiplier_addtl[5]: 1
+2025/03/14-12:04:13.555631 4621 Options.max_bytes_for_level_multiplier_addtl[6]: 1
+2025/03/14-12:04:13.555632 4621       Options.max_sequential_skip_in_iterations: 8
+2025/03/14-12:04:13.555633 4621                    Options.max_compaction_bytes: 1677721600
+2025/03/14-12:04:13.555634 4621   Options.ignore_max_compaction_bytes_for_input: true
+2025/03/14-12:04:13.555635 4621                        Options.arena_block_size: 1048576
+2025/03/14-12:04:13.555636 4621   Options.soft_pending_compaction_bytes_limit: 68719476736
+2025/03/14-12:04:13.555637 4621   Options.hard_pending_compaction_bytes_limit: 274877906944
+2025/03/14-12:04:13.555645 4621                Options.disable_auto_compactions: 0
+2025/03/14-12:04:13.555648 4621                        Options.compaction_style: kCompactionStyleLevel
+2025/03/14-12:04:13.555650 4621                          Options.compaction_pri: kMinOverlappingRatio
+2025/03/14-12:04:13.555653 4621 Options.compaction_options_universal.size_ratio: 1
+2025/03/14-12:04:13.555655 4621 Options.compaction_options_universal.min_merge_width: 2
+2025/03/14-12:04:13.555656 4621 Options.compaction_options_universal.max_merge_width: 4294967295
+2025/03/14-12:04:13.555657 4621 Options.compaction_options_universal.max_size_amplification_percent: 200
+2025/03/14-12:04:13.555660 4621 Options.compaction_options_universal.compression_size_percent: -1
+2025/03/14-12:04:13.555662 4621 Options.compaction_options_universal.stop_style: kCompactionStopStyleTotalSize
+2025/03/14-12:04:13.555663 4621 Options.compaction_options_fifo.max_table_files_size: 1073741824
+2025/03/14-12:04:13.555667 4621 Options.compaction_options_fifo.allow_compaction: 0
+2025/03/14-12:04:13.555671 4621                   Options.table_properties_collectors: 
+2025/03/14-12:04:13.555674 4621                   Options.inplace_update_support: 0
+2025/03/14-12:04:13.555676 4621                 Options.inplace_update_num_locks: 10000
+2025/03/14-12:04:13.555677 4621               Options.memtable_prefix_bloom_size_ratio: 0.000000
+2025/03/14-12:04:13.555691 4621               Options.memtable_whole_key_filtering: 0
+2025/03/14-12:04:13.555694 4621   Options.memtable_huge_page_size: 0
+2025/03/14-12:04:13.555697 4621                           Options.bloom_locality: 0
+2025/03/14-12:04:13.555703 4621                    Options.max_successive_merges: 0
+2025/03/14-12:04:13.555704 4621                Options.optimize_filters_for_hits: 0
+2025/03/14-12:04:13.555707 4621                Options.paranoid_file_checks: 0
+2025/03/14-12:04:13.555710 4621                Options.force_consistency_checks: 1
+2025/03/14-12:04:13.555711 4621                Options.report_bg_io_stats: 0
+2025/03/14-12:04:13.555713 4621                               Options.ttl: 2592000
+2025/03/14-12:04:13.555714 4621          Options.periodic_compaction_seconds: 0
+2025/03/14-12:04:13.555715 4621                        Options.default_temperature: kUnknown
+2025/03/14-12:04:13.555716 4621  Options.preclude_last_level_data_seconds: 0
+2025/03/14-12:04:13.555718 4621    Options.preserve_internal_time_seconds: 0
+2025/03/14-12:04:13.555719 4621                       Options.enable_blob_files: false
+2025/03/14-12:04:13.555721 4621                           Options.min_blob_size: 0
+2025/03/14-12:04:13.555722 4621                          Options.blob_file_size: 268435456
+2025/03/14-12:04:13.555724 4621                   Options.blob_compression_type: NoCompression
+2025/03/14-12:04:13.555730 4621          Options.enable_blob_garbage_collection: false
+2025/03/14-12:04:13.555731 4621      Options.blob_garbage_collection_age_cutoff: 0.250000
+2025/03/14-12:04:13.555733 4621 Options.blob_garbage_collection_force_threshold: 1.000000
+2025/03/14-12:04:13.555735 4621          Options.blob_compaction_readahead_size: 0
+2025/03/14-12:04:13.555736 4621                Options.blob_file_starting_level: 0
+2025/03/14-12:04:13.555738 4621         Options.experimental_mempurge_threshold: 0.000000
+2025/03/14-12:04:13.555740 4621            Options.memtable_max_range_deletions: 0
+2025/03/14-12:04:13.555808 4621               Options.comparator: leveldb.BytewiseComparator
+2025/03/14-12:04:13.555810 4621           Options.merge_operator: None
+2025/03/14-12:04:13.555811 4621        Options.compaction_filter: None
+2025/03/14-12:04:13.555812 4621        Options.compaction_filter_factory: None
+2025/03/14-12:04:13.555813 4621  Options.sst_partitioner_factory: None
+2025/03/14-12:04:13.555816 4621         Options.memtable_factory: SkipListFactory
+2025/03/14-12:04:13.555817 4621            Options.table_factory: BlockBasedTable
+2025/03/14-12:04:13.555834 4621            table_factory options:   flush_block_policy_factory: FlushBlockBySizePolicyFactory (0x7b38a3065060)
+  cache_index_and_filter_blocks: 0
+  cache_index_and_filter_blocks_with_high_priority: 1
+  pin_l0_filter_and_index_blocks_in_cache: 0
+  pin_top_level_index_and_filter: 1
+  index_type: 0
+  data_block_index_type: 0
+  index_shortening: 1
+  data_block_hash_table_util_ratio: 0.750000
+  checksum: 4
+  no_block_cache: 0
+  block_cache: 0x7b38a3008e50
+  block_cache_name: LRUCache
+  block_cache_options:
+    capacity : 33554432
+    num_shard_bits : 6
+    strict_capacity_limit : 0
+    memory_allocator : None
+    high_pri_pool_ratio: 0.500
+    low_pri_pool_ratio: 0.000
+  persistent_cache: (nil)
+  block_size: 4096
+  block_size_deviation: 10
+  block_restart_interval: 16
+  index_block_restart_interval: 1
+  metadata_block_size: 4096
+  partition_filters: 0
+  use_delta_encoding: 1
+  filter_policy: nullptr
+  whole_key_filtering: 1
+  verify_compression: 0
+  read_amp_bytes_per_bit: 0
+  format_version: 5
+  enable_index_compression: 1
+  block_align: 0
+  max_auto_readahead_size: 262144
+  prepopulate_block_cache: 0
+  initial_auto_readahead_size: 8192
+  num_file_reads_for_auto_readahead: 2
+2025/03/14-12:04:13.555842 4621        Options.write_buffer_size: 10485760
+2025/03/14-12:04:13.555844 4621  Options.max_write_buffer_number: 2
+2025/03/14-12:04:13.555845 4621          Options.compression: LZ4
+2025/03/14-12:04:13.555847 4621                  Options.bottommost_compression: Disabled
+2025/03/14-12:04:13.555848 4621       Options.prefix_extractor: nullptr
+2025/03/14-12:04:13.555849 4621   Options.memtable_insert_with_hint_prefix_extractor: nullptr
+2025/03/14-12:04:13.555850 4621             Options.num_levels: 7
+2025/03/14-12:04:13.555851 4621        Options.min_write_buffer_number_to_merge: 1
+2025/03/14-12:04:13.555852 4621     Options.max_write_buffer_number_to_maintain: 0
+2025/03/14-12:04:13.555853 4621     Options.max_write_buffer_size_to_maintain: 0
+2025/03/14-12:04:13.555855 4621            Options.bottommost_compression_opts.window_bits: -14
+2025/03/14-12:04:13.555856 4621                  Options.bottommost_compression_opts.level: 32767
+2025/03/14-12:04:13.555857 4621               Options.bottommost_compression_opts.strategy: 0
+2025/03/14-12:04:13.555860 4621         Options.bottommost_compression_opts.max_dict_bytes: 0
+2025/03/14-12:04:13.555861 4621         Options.bottommost_compression_opts.zstd_max_train_bytes: 0
+2025/03/14-12:04:13.555862 4621         Options.bottommost_compression_opts.parallel_threads: 1
+2025/03/14-12:04:13.555863 4621                  Options.bottommost_compression_opts.enabled: false
+2025/03/14-12:04:13.555864 4621         Options.bottommost_compression_opts.max_dict_buffer_bytes: 0
+2025/03/14-12:04:13.555865 4621         Options.bottommost_compression_opts.use_zstd_dict_trainer: true
+2025/03/14-12:04:13.555866 4621            Options.compression_opts.window_bits: -14
+2025/03/14-12:04:13.555867 4621                  Options.compression_opts.level: 32767
+2025/03/14-12:04:13.555868 4621               Options.compression_opts.strategy: 0
+2025/03/14-12:04:13.555869 4621         Options.compression_opts.max_dict_bytes: 0
+2025/03/14-12:04:13.555870 4621         Options.compression_opts.zstd_max_train_bytes: 0
+2025/03/14-12:04:13.555872 4621         Options.compression_opts.use_zstd_dict_trainer: true
+2025/03/14-12:04:13.555873 4621         Options.compression_opts.parallel_threads: 1
+2025/03/14-12:04:13.555874 4621                  Options.compression_opts.enabled: false
+2025/03/14-12:04:13.555877 4621         Options.compression_opts.max_dict_buffer_bytes: 0
+2025/03/14-12:04:13.555878 4621      Options.level0_file_num_compaction_trigger: 4
+2025/03/14-12:04:13.555879 4621          Options.level0_slowdown_writes_trigger: 20
+2025/03/14-12:04:13.555880 4621              Options.level0_stop_writes_trigger: 36
+2025/03/14-12:04:13.555881 4621                   Options.target_file_size_base: 67108864
+2025/03/14-12:04:13.555882 4621             Options.target_file_size_multiplier: 1
+2025/03/14-12:04:13.555883 4621                Options.max_bytes_for_level_base: 268435456
+2025/03/14-12:04:13.555884 4621 Options.level_compaction_dynamic_level_bytes: 1
+2025/03/14-12:04:13.555886 4621          Options.max_bytes_for_level_multiplier: 10.000000
+2025/03/14-12:04:13.555887 4621 Options.max_bytes_for_level_multiplier_addtl[0]: 1
+2025/03/14-12:04:13.555888 4621 Options.max_bytes_for_level_multiplier_addtl[1]: 1
+2025/03/14-12:04:13.555890 4621 Options.max_bytes_for_level_multiplier_addtl[2]: 1
+2025/03/14-12:04:13.555891 4621 Options.max_bytes_for_level_multiplier_addtl[3]: 1
+2025/03/14-12:04:13.555892 4621 Options.max_bytes_for_level_multiplier_addtl[4]: 1
+2025/03/14-12:04:13.555893 4621 Options.max_bytes_for_level_multiplier_addtl[5]: 1
+2025/03/14-12:04:13.555895 4621 Options.max_bytes_for_level_multiplier_addtl[6]: 1
+2025/03/14-12:04:13.555896 4621       Options.max_sequential_skip_in_iterations: 8
+2025/03/14-12:04:13.555897 4621                    Options.max_compaction_bytes: 1677721600
+2025/03/14-12:04:13.555898 4621   Options.ignore_max_compaction_bytes_for_input: true
+2025/03/14-12:04:13.555906 4621                        Options.arena_block_size: 1048576
+2025/03/14-12:04:13.555909 4621   Options.soft_pending_compaction_bytes_limit: 68719476736
+2025/03/14-12:04:13.555911 4621   Options.hard_pending_compaction_bytes_limit: 274877906944
+2025/03/14-12:04:13.555912 4621                Options.disable_auto_compactions: 0
+2025/03/14-12:04:13.555914 4621                        Options.compaction_style: kCompactionStyleLevel
+2025/03/14-12:04:13.555915 4621                          Options.compaction_pri: kMinOverlappingRatio
+2025/03/14-12:04:13.555916 4621 Options.compaction_options_universal.size_ratio: 1
+2025/03/14-12:04:13.555917 4621 Options.compaction_options_universal.min_merge_width: 2
+2025/03/14-12:04:13.555918 4621 Options.compaction_options_universal.max_merge_width: 4294967295
+2025/03/14-12:04:13.555919 4621 Options.compaction_options_universal.max_size_amplification_percent: 200
+2025/03/14-12:04:13.555921 4621 Options.compaction_options_universal.compression_size_percent: -1
+2025/03/14-12:04:13.555923 4621 Options.compaction_options_universal.stop_style: kCompactionStopStyleTotalSize
+2025/03/14-12:04:13.555924 4621 Options.compaction_options_fifo.max_table_files_size: 1073741824
+2025/03/14-12:04:13.555925 4621 Options.compaction_options_fifo.allow_compaction: 0
+2025/03/14-12:04:13.555928 4621                   Options.table_properties_collectors: 
+2025/03/14-12:04:13.555929 4621                   Options.inplace_update_support: 0
+2025/03/14-12:04:13.555931 4621                 Options.inplace_update_num_locks: 10000
+2025/03/14-12:04:13.555932 4621               Options.memtable_prefix_bloom_size_ratio: 0.000000
+2025/03/14-12:04:13.555934 4621               Options.memtable_whole_key_filtering: 0
+2025/03/14-12:04:13.555935 4621   Options.memtable_huge_page_size: 0
+2025/03/14-12:04:13.555937 4621                           Options.bloom_locality: 0
+2025/03/14-12:04:13.555940 4621                    Options.max_successive_merges: 0
+2025/03/14-12:04:13.555940 4621                Options.optimize_filters_for_hits: 0
+2025/03/14-12:04:13.555943 4621                Options.paranoid_file_checks: 0
+2025/03/14-12:04:13.555944 4621                Options.force_consistency_checks: 1
+2025/03/14-12:04:13.555945 4621                Options.report_bg_io_stats: 0
+2025/03/14-12:04:13.555946 4621                               Options.ttl: 2592000
+2025/03/14-12:04:13.555947 4621          Options.periodic_compaction_seconds: 0
+2025/03/14-12:04:13.555948 4621                        Options.default_temperature: kUnknown
+2025/03/14-12:04:13.555949 4621  Options.preclude_last_level_data_seconds: 0
+2025/03/14-12:04:13.555950 4621    Options.preserve_internal_time_seconds: 0
+2025/03/14-12:04:13.555951 4621                       Options.enable_blob_files: false
+2025/03/14-12:04:13.555952 4621                           Options.min_blob_size: 0
+2025/03/14-12:04:13.555953 4621                          Options.blob_file_size: 268435456
+2025/03/14-12:04:13.555955 4621                   Options.blob_compression_type: NoCompression
+2025/03/14-12:04:13.555958 4621          Options.enable_blob_garbage_collection: false
+2025/03/14-12:04:13.555959 4621      Options.blob_garbage_collection_age_cutoff: 0.250000
+2025/03/14-12:04:13.555961 4621 Options.blob_garbage_collection_force_threshold: 1.000000
+2025/03/14-12:04:13.555963 4621          Options.blob_compaction_readahead_size: 0
+2025/03/14-12:04:13.555964 4621                Options.blob_file_starting_level: 0
+2025/03/14-12:04:13.555965 4621         Options.experimental_mempurge_threshold: 0.000000
+2025/03/14-12:04:13.555967 4621            Options.memtable_max_range_deletions: 0
+2025/03/14-12:04:13.556031 4621               Options.comparator: leveldb.BytewiseComparator
+2025/03/14-12:04:13.556032 4621           Options.merge_operator: None
+2025/03/14-12:04:13.556033 4621        Options.compaction_filter: None
+2025/03/14-12:04:13.556035 4621        Options.compaction_filter_factory: None
+2025/03/14-12:04:13.556036 4621  Options.sst_partitioner_factory: None
+2025/03/14-12:04:13.556037 4621         Options.memtable_factory: SkipListFactory
+2025/03/14-12:04:13.556038 4621            Options.table_factory: BlockBasedTable
+2025/03/14-12:04:13.556051 4621            table_factory options:   flush_block_policy_factory: FlushBlockBySizePolicyFactory (0x7b38a3065060)
+  cache_index_and_filter_blocks: 0
+  cache_index_and_filter_blocks_with_high_priority: 1
+  pin_l0_filter_and_index_blocks_in_cache: 0
+  pin_top_level_index_and_filter: 1
+  index_type: 0
+  data_block_index_type: 0
+  index_shortening: 1
+  data_block_hash_table_util_ratio: 0.750000
+  checksum: 4
+  no_block_cache: 0
+  block_cache: 0x7b38a3008e50
+  block_cache_name: LRUCache
+  block_cache_options:
+    capacity : 33554432
+    num_shard_bits : 6
+    strict_capacity_limit : 0
+    memory_allocator : None
+    high_pri_pool_ratio: 0.500
+    low_pri_pool_ratio: 0.000
+  persistent_cache: (nil)
+  block_size: 4096
+  block_size_deviation: 10
+  block_restart_interval: 16
+  index_block_restart_interval: 1
+  metadata_block_size: 4096
+  partition_filters: 0
+  use_delta_encoding: 1
+  filter_policy: nullptr
+  whole_key_filtering: 1
+  verify_compression: 0
+  read_amp_bytes_per_bit: 0
+  format_version: 5
+  enable_index_compression: 1
+  block_align: 0
+  max_auto_readahead_size: 262144
+  prepopulate_block_cache: 0
+  initial_auto_readahead_size: 8192
+  num_file_reads_for_auto_readahead: 2
+2025/03/14-12:04:13.556057 4621        Options.write_buffer_size: 10485760
+2025/03/14-12:04:13.556059 4621  Options.max_write_buffer_number: 2
+2025/03/14-12:04:13.556060 4621          Options.compression: LZ4
+2025/03/14-12:04:13.556061 4621                  Options.bottommost_compression: Disabled
+2025/03/14-12:04:13.556062 4621       Options.prefix_extractor: nullptr
+2025/03/14-12:04:13.556064 4621   Options.memtable_insert_with_hint_prefix_extractor: nullptr
+2025/03/14-12:04:13.556065 4621             Options.num_levels: 7
+2025/03/14-12:04:13.556066 4621        Options.min_write_buffer_number_to_merge: 1
+2025/03/14-12:04:13.556067 4621     Options.max_write_buffer_number_to_maintain: 0
+2025/03/14-12:04:13.556068 4621     Options.max_write_buffer_size_to_maintain: 0
+2025/03/14-12:04:13.556069 4621            Options.bottommost_compression_opts.window_bits: -14
+2025/03/14-12:04:13.556070 4621                  Options.bottommost_compression_opts.level: 32767
+2025/03/14-12:04:13.556072 4621               Options.bottommost_compression_opts.strategy: 0
+2025/03/14-12:04:13.556073 4621         Options.bottommost_compression_opts.max_dict_bytes: 0
+2025/03/14-12:04:13.556074 4621         Options.bottommost_compression_opts.zstd_max_train_bytes: 0
+2025/03/14-12:04:13.556075 4621         Options.bottommost_compression_opts.parallel_threads: 1
+2025/03/14-12:04:13.556076 4621                  Options.bottommost_compression_opts.enabled: false
+2025/03/14-12:04:13.556077 4621         Options.bottommost_compression_opts.max_dict_buffer_bytes: 0
+2025/03/14-12:04:13.556078 4621         Options.bottommost_compression_opts.use_zstd_dict_trainer: true
+2025/03/14-12:04:13.556079 4621            Options.compression_opts.window_bits: -14
+2025/03/14-12:04:13.556080 4621                  Options.compression_opts.level: 32767
+2025/03/14-12:04:13.556081 4621               Options.compression_opts.strategy: 0
+2025/03/14-12:04:13.556081 4621         Options.compression_opts.max_dict_bytes: 0
+2025/03/14-12:04:13.556082 4621         Options.compression_opts.zstd_max_train_bytes: 0
+2025/03/14-12:04:13.556083 4621         Options.compression_opts.use_zstd_dict_trainer: true
+2025/03/14-12:04:13.556085 4621         Options.compression_opts.parallel_threads: 1
+2025/03/14-12:04:13.556086 4621                  Options.compression_opts.enabled: false
+2025/03/14-12:04:13.556087 4621         Options.compression_opts.max_dict_buffer_bytes: 0
+2025/03/14-12:04:13.556088 4621      Options.level0_file_num_compaction_trigger: 4
+2025/03/14-12:04:13.556089 4621          Options.level0_slowdown_writes_trigger: 20
+2025/03/14-12:04:13.556090 4621              Options.level0_stop_writes_trigger: 36
+2025/03/14-12:04:13.556091 4621                   Options.target_file_size_base: 67108864
+2025/03/14-12:04:13.556094 4621             Options.target_file_size_multiplier: 1
+2025/03/14-12:04:13.556096 4621                Options.max_bytes_for_level_base: 268435456
+2025/03/14-12:04:13.556099 4621 Options.level_compaction_dynamic_level_bytes: 1
+2025/03/14-12:04:13.556102 4621          Options.max_bytes_for_level_multiplier: 10.000000
+2025/03/14-12:04:13.556103 4621 Options.max_bytes_for_level_multiplier_addtl[0]: 1
+2025/03/14-12:04:13.556104 4621 Options.max_bytes_for_level_multiplier_addtl[1]: 1
+2025/03/14-12:04:13.556105 4621 Options.max_bytes_for_level_multiplier_addtl[2]: 1
+2025/03/14-12:04:13.556106 4621 Options.max_bytes_for_level_multiplier_addtl[3]: 1
+2025/03/14-12:04:13.556108 4621 Options.max_bytes_for_level_multiplier_addtl[4]: 1
+2025/03/14-12:04:13.556109 4621 Options.max_bytes_for_level_multiplier_addtl[5]: 1
+2025/03/14-12:04:13.556110 4621 Options.max_bytes_for_level_multiplier_addtl[6]: 1
+2025/03/14-12:04:13.556111 4621       Options.max_sequential_skip_in_iterations: 8
+2025/03/14-12:04:13.556112 4621                    Options.max_compaction_bytes: 1677721600
+2025/03/14-12:04:13.556113 4621   Options.ignore_max_compaction_bytes_for_input: true
+2025/03/14-12:04:13.556114 4621                        Options.arena_block_size: 1048576
+2025/03/14-12:04:13.556115 4621   Options.soft_pending_compaction_bytes_limit: 68719476736
+2025/03/14-12:04:13.556116 4621   Options.hard_pending_compaction_bytes_limit: 274877906944
+2025/03/14-12:04:13.556117 4621                Options.disable_auto_compactions: 0
+2025/03/14-12:04:13.556119 4621                        Options.compaction_style: kCompactionStyleLevel
+2025/03/14-12:04:13.556120 4621                          Options.compaction_pri: kMinOverlappingRatio
+2025/03/14-12:04:13.556121 4621 Options.compaction_options_universal.size_ratio: 1
+2025/03/14-12:04:13.556122 4621 Options.compaction_options_universal.min_merge_width: 2
+2025/03/14-12:04:13.556123 4621 Options.compaction_options_universal.max_merge_width: 4294967295
+2025/03/14-12:04:13.556124 4621 Options.compaction_options_universal.max_size_amplification_percent: 200
+2025/03/14-12:04:13.556126 4621 Options.compaction_options_universal.compression_size_percent: -1
+2025/03/14-12:04:13.556129 4621 Options.compaction_options_universal.stop_style: kCompactionStopStyleTotalSize
+2025/03/14-12:04:13.556130 4621 Options.compaction_options_fifo.max_table_files_size: 1073741824
+2025/03/14-12:04:13.556133 4621 Options.compaction_options_fifo.allow_compaction: 0
+2025/03/14-12:04:13.556136 4621                   Options.table_properties_collectors: 
+2025/03/14-12:04:13.556137 4621                   Options.inplace_update_support: 0
+2025/03/14-12:04:13.556138 4621                 Options.inplace_update_num_locks: 10000
+2025/03/14-12:04:13.556139 4621               Options.memtable_prefix_bloom_size_ratio: 0.000000
+2025/03/14-12:04:13.556141 4621               Options.memtable_whole_key_filtering: 0
+2025/03/14-12:04:13.556142 4621   Options.memtable_huge_page_size: 0
+2025/03/14-12:04:13.556143 4621                           Options.bloom_locality: 0
+2025/03/14-12:04:13.556144 4621                    Options.max_successive_merges: 0
+2025/03/14-12:04:13.556145 4621                Options.optimize_filters_for_hits: 0
+2025/03/14-12:04:13.556146 4621                Options.paranoid_file_checks: 0
+2025/03/14-12:04:13.556147 4621                Options.force_consistency_checks: 1
+2025/03/14-12:04:13.556148 4621                Options.report_bg_io_stats: 0
+2025/03/14-12:04:13.556149 4621                               Options.ttl: 2592000
+2025/03/14-12:04:13.556150 4621          Options.periodic_compaction_seconds: 0
+2025/03/14-12:04:13.556151 4621                        Options.default_temperature: kUnknown
+2025/03/14-12:04:13.556154 4621  Options.preclude_last_level_data_seconds: 0
+2025/03/14-12:04:13.556155 4621    Options.preserve_internal_time_seconds: 0
+2025/03/14-12:04:13.556156 4621                       Options.enable_blob_files: false
+2025/03/14-12:04:13.556157 4621                           Options.min_blob_size: 0
+2025/03/14-12:04:13.556158 4621                          Options.blob_file_size: 268435456
+2025/03/14-12:04:13.556159 4621                   Options.blob_compression_type: NoCompression
+2025/03/14-12:04:13.556160 4621          Options.enable_blob_garbage_collection: false
+2025/03/14-12:04:13.556162 4621      Options.blob_garbage_collection_age_cutoff: 0.250000
+2025/03/14-12:04:13.556163 4621 Options.blob_garbage_collection_force_threshold: 1.000000
+2025/03/14-12:04:13.556164 4621          Options.blob_compaction_readahead_size: 0
+2025/03/14-12:04:13.556165 4621                Options.blob_file_starting_level: 0
+2025/03/14-12:04:13.556167 4621         Options.experimental_mempurge_threshold: 0.000000
+2025/03/14-12:04:13.556168 4621            Options.memtable_max_range_deletions: 0
+2025/03/14-12:04:13.586739 4621 DB pointer 0x7b38a16f6800

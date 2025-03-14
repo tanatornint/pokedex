@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pokedex
+Version: 0.1
+Summary: Search for pokedex.
+Author: Tanatorn Intarapanya
+Author-email: unkiaura@gmail.com
+Requires-Dist: requests==2.32.3
+Requires-Dist: langchain==0.3.2
+Requires-Dist: unstructured
+Requires-Dist: langchain_community
+Requires-Dist: torch
+Requires-Dist: torchvision
+Requires-Dist: transformers
+Requires-Dist: sentence-transformers
+Requires-Dist: pillow
+Requires-Dist: numpy
+Requires-Dist: qdrant-client
+Requires-Dist: selenium
